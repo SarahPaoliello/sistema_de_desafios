@@ -5,7 +5,7 @@ from services.auth_service import login
 
 def tela_login():
 
-    st.title("🔑 Login")
+    st.title("Login")
 
     email = st.text_input("Email")
 
