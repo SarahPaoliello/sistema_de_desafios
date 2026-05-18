@@ -5,7 +5,7 @@ from services.desafio_service import listar_desafios
 
 def tela_desafios():
 
-    st.title("📋 Desafios")
+    st.title("Desafios")
 
     desafios = listar_desafios()
 
