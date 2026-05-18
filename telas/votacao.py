@@ -7,7 +7,7 @@ def tela_votacao():
 
     desafio = st.session_state.desafio
 
-    st.title("🗳️ Votação")
+    st.title("Votação")
 
     st.subheader(desafio["titulo"])
 
