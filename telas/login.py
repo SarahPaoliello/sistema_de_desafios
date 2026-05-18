@@ -7,14 +7,21 @@ def tela_login():
 
     st.title("Login")
 
-    email = st.text_input("Email")
+    email = st.text_input(
+        "Email",
+        key="login_email"
+    )
 
     senha = st.text_input(
         "Senha",
-        type="password"
+        type="password",
+        key="login_senha"
     )
 
-    if st.button("Entrar"):
+    if st.button(
+        "Entrar",
+        key="btn_login"
+    ):
 
         usuario = login(email, senha)
 
