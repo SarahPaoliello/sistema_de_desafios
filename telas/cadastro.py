@@ -5,7 +5,7 @@ from services.auth_service import criar_usuario
 
 def tela_cadastro():
 
-    st.title("📝 Cadastro")
+    st.title("Cadastro")
 
     nome = st.text_input("Nome")
 
